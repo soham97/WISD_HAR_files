@@ -1,0 +1,7 @@
+# Run this in python to find the input node of the graph
+
+>>> import tensorflow as tf
+>>> gf = tf.GraphDef()
+>>> gf.ParseFromString(open('/your/path/to/graphname.pb','rb').read())
+
+>>> [n.name + '=>' +  n.op for n in gf.node if n.op in ( 'Softmax','Placeholder')]
