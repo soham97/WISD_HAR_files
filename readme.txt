@@ -1,4 +1,5 @@
-Activity prediction
+Human activity Recognition using WSIDM dataset.
+File last.ipynb contains data analysis and deep neural network and RNN training.
 
 This data has been released by the Wireless Sensor Data Mining
 (WISDM) Lab. <http://www.cis.fordham.edu/wisdm/>
